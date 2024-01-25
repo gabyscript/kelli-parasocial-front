@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "question": "¿Cuales son las materias que mas odiabas en el colegio?",
+        "answers": [
+            "Historia",
+            "Matematicas",
+            "Geografia",
+            "Fisica",
+            "Quimica"
+        ]
+    }, 
+    {
+        "id": 2,
+        "question": "Elementos que puedes encontrar en una cocina",
+        "answers": [
+            "Cuchara",
+            "Sartenes",
+            "Lavalozas",
+            "Platos",
+            "Horno"
+        ]
+    }, 
+    {
+        "id": 3,
+        "question": "Comidas y bebidas que se pueden comer en el 18",
+        "answers": [
+            "Terremoto",
+            "Empanada",
+            "Anticuchos",
+            "Chicha",
+            "Sopaipilla"
+        ]
+    }
+]
