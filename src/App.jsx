@@ -8,7 +8,9 @@ import './App.css'
 function App() {
 
   const BASE_URL = import.meta.env.VITE_BASE_URL
-  const socket = io(BASE_URL);
+  const socket = io(BASE_URL, {
+    path: "/clients/socketio/hubs/kelliParasocialHub"
+  });
 
   const [revealedWords , setRevealedWords] = useState([])
   let [timer, setTimer] = useState(4)
